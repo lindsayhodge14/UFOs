@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UFO Finder</title>
 </head>
-<body>
+<body class="bg-dark">
     
 </body>
 </html>
@@ -18,7 +18,7 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="C:/Users/Lindsay/Bootcamp/UFOs/static/css/style.css">
 
     <body>
         <div class="wrapper">
@@ -26,12 +26,12 @@
         </div>
     </body>
 
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
         <a class="navbar-brand" href="index.html">UFO Sightings</a>
     </nav>
 
     <div class="jumbotron">
-        <h1>The Truth Is Out There</h1>
+        <h1 class="display-4">The Truth is Out There</h1>
     </div>
 
     <div class="container-fluid">
@@ -47,7 +47,6 @@
             </p>
           </div>
         </div>
-      </div>
 
       <div class="container-fluid">
         <div class="row">
@@ -60,38 +59,41 @@
         </div>
       </div>
 
-      <form>
-        <p>Filter Search</p>
-      </form>
+        <form class="bg-dark">
+            <p>Filter Search</p>
 
-      <ul class="list-group">
+            <ul class="list-group bg-dark">
 
-    </ul>
-    <li class="list-group-item">
-        <label for="date">Enter Date</label>
-        <input type="text" placeholder="1/10/2010" id="datetime" />
-    </li>
-    <li class="list-group-item">
-        <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
-    </li>
+                <li class="list-group-item bg-dark">
+                    <label for="date">Enter Date</label>
+                    <input type="text" placeholder="1/10/2010" id="datetime" />
+                </li>
+                <li class="list-group-item bg-dark">
+                    <button id="filter-btn" type="button" class="btn-dark">Filter Table</button>
+                </li>
+            </ul>
+        </form>
+    
 
-    <div class="col-md-9">
-        <table class="table table-striped">
-          <thead>
-            <tr>
-                <th>Date</th>
-                <th>City</th>
-                <th>State</th>
-                <th>Country</th>
-                <th>Shape</th>
-                <th>Duration</th>
-                <th>Comments</th>
-            </tr>
-          </thead>
-          <tbody></tbody>
-        </table>
-      </div>
-      
+        <div class="col-md-9">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>City</th>
+                        <th>State</th>
+                        <th>Country</th>
+                        <th>Shape</th>
+                        <th>Duration</th>
+                        <th>Comments</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
-      <script src="static/js/data.js"></script>
-      <script src="static/js/app.js"></script>
+      <script src="C:/Users/Lindsay/Bootcamp/UFOs/static/js/data.js"></script>
+      <script src="C:/Users/Lindsay/Bootcamp/UFOs/static/js/app.js"></script>
+
